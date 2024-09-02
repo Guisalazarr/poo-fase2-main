@@ -95,7 +95,7 @@ export class SystemController {
     }
     
     // Metodo para listar o plano de voo
-    listFlightPlan(){
+    listFlightPlan(id){
         try{      
             const result = this.#flightPlanService.recover(id)
             console.log('Plano de voo:', result)

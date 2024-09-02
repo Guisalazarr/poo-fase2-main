@@ -74,7 +74,7 @@ while(!exit){
         const dateAproove = prompt('Informe a data: ')
         validDate(dateAproove)
     
-        const timeAproove = Number(prompt('Informe a hora que deseja consultar: '))
+        const timeAproove = Number(prompt('Informe a hora: '))
         validTime(timeAproove)
         
         const altitude = Number(prompt('Informe a altitude: '))
